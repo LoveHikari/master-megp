@@ -1,0 +1,31 @@
+#main article {
+    border-bottom: none;
+}
+
+body {
+    font: 500 .875em PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans;
+    background-color: #07040e;
+}
+
+#canvas {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    cursor: none;
+}
+
+.content {
+    position: absolute;
+    z-index: 11;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.splash {
+    position: relative;
+}
